@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roux Academy 2015 --Home</title>
+    <title>Roux Academy 2015 --Privacy Policy</title>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet">
@@ -14,7 +14,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="home">
+  <body id="privacy">
   	<section class="container">
   		<div class="content row">
   			<section class="main col col-lg-8">

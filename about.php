@@ -18,7 +18,7 @@
   	<section class="container">
   		<div class="content row">
   			<section class="main col col-lg-8">
-  				
+  				<?php include "_/components/php/header.php"; ?>
   			</section><!--end main-->
   			<section class="sidebar col col-lg-4">
   				
@@ -26,7 +26,7 @@
 
   
   		</div><!--end content-->
-  		
+  		<?php include "_/components/php/footer.php"; ?>
   	</section><!--end container-->
     
 

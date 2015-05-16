@@ -16,8 +16,9 @@
   <body id="artists">
   	<section class="container">
   		<div class="content row">
+        <?php include "_/components/php/header.php"; ?>
   			<section class="main col col-lg-8">
-  				<?php include "_/components/php/header.php"; ?>
+  				
   			</section><!--end main-->
   			<section class="sidebar col col-lg-4">
   				

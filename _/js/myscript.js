@@ -15,4 +15,9 @@ $(function() {
 		$(".dropdown-menu", this).fadeOut("fast");
 	});//hover
 
+  //initialize all tooltips on a page
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip({animation: true});
+  });
+
 }); //jQuery is loaded

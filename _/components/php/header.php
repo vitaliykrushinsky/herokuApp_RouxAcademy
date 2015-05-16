@@ -2,7 +2,7 @@
 	<div class="col-lg-12">
 		<header class="clearfix">
 			<section id="branding">
-				<a href="index.php"><img src="_img/misc/ralogo_monogram.png" alt="logo for Roux Conference"></a>
+				<a href="index.php"><img src="images/misc/ralogo_monogram.png" alt="logo for Roux Conference"></a>
 			</section>
 
 			<section class="navbar">

@@ -20,4 +20,21 @@ $(function() {
   $('[data-toggle="tooltip"]').tooltip({animation: true});
   });
 
+  //Activate Modal Window
+  $(".modalphotos img").on('click', function() {
+    //активація модального вікна
+    $("#modal").modal({
+      show: true
+    });
+    //із міняатюри по якій клацнули вертаємо src значення
+    //великої картинки
+    var mysrc = this.src.substr(0, this.src.length-7) + ".jpg";
+    //присвоювання значення атрибуту img src в модальному вікні 
+    $('#modalimage').attr('src', mysrc);
+    //закриття картинки яка спливла в модальному вікні
+    $('#modalimage').on('click', function() {
+      $('#modal').modal('hide');
+    });
+  });
+
 }); //jQuery is loaded

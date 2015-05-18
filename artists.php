@@ -13,21 +13,24 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="artists">
+  <body id="artists" data-spy="scroll" data-target=".scrollspy">
   	<section class="container">
-  		<div class="content row">
+      <div class="content row">
         <?php include "_/components/php/header.php"; ?>
-  			<section class="main col col-lg-8">
-  				
-  			</section><!--end main-->
-  			<section class="sidebar col col-lg-4">
-  				
-  			</section><!--end sidebar-->
+        
+        <section class="main col-lg-8">
+          <?php include "_/components/php/article-artistlist.php"; ?>
+        </section><!--end main-->
+        <section class="sidebar col col-lg-4">
+          <?php include "_/components/php/aside-register.php"; ?>
+          <?php include "_/components/php/aside-lastyear.php"; ?>
+          <?php include "_/components/php/aside-accordion.php"; ?>
+        </section><!--end sidebar-->
 
   
-  		</div><!--end content-->
-  		<?php include "_/components/php/footer.php"; ?>
-  	</section><!--end container-->
+      </div><!--end content-->
+      <?php include "_/components/php/footer.php"; ?>
+    </section><!--end container-->
     
 
 

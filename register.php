@@ -23,18 +23,11 @@
         </section><!--end main-->
         <section class="sidebar col col-lg-4">
           <?php include "_/components/php/aside-register.php"; ?>
-          <?php include "_/components/php/aside-lastyear.php"; ?>
-          <?php include "_/components/php/aside-abouttheartists.php"; ?>
           <?php include "_/components/php/aside-accordion.php"; ?>
         </section><!--end sidebar-->
-
-  
       </div><!--end content-->
       <?php include "_/components/php/footer.php"; ?>
     </section><!--end container-->
-    
-
-
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>
   </body>

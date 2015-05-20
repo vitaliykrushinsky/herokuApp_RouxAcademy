@@ -1,7 +1,7 @@
-<section class="artistlist">
-	<div id="artistindex" class="row">
+<section class="artistlist row">
+	
 		
-		<section class="scrollspy clearfix col-sm-4 col-lg-3 hidden-xs">
+		<section class="scrollspy clearfix col-sm-4 hidden-xs">
 			<ul class="nav nav-tabs" data-spy="affix">
 				<li><a href="#Barot_Bellingham"><span class="glyphicon glyphicon-user"></span> Barot Bellingham</a></li>
 				<li><a href="#Gerard_Donahue"><span class="glyphicon glyphicon-user"></span> Gerard Donahue</a></li>
@@ -18,7 +18,7 @@
 			</ul>
 		</section>
 		
-		<section class="artistinfo col-sm-8 col-lg-9">
+		<section class="artistinfo col-sm-8">
 			<?php include '_/components/php/snippet_artist_Barot_Bellingham.php'; ?>
 			<?php include '_/components/php/snippet_artist_Gerard_Donahue.php'; ?>
 			<?php include '_/components/php/snippet_artist_Jonathan_Ferrar.php'; ?>
@@ -32,5 +32,5 @@
 			<?php include '_/components/php/snippet_artist_Xhou_Ta.php'; ?>
 			<?php include '_/components/php/snippet_artist_Richard_Tweed.php'; ?>
 		</section>
-	</div>
+	
 </section>
